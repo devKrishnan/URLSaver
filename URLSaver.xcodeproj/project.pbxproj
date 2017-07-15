@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C40E614C1F19ED6000ABACCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40E614B1F19ED6000ABACCF /* AppDelegate.swift */; };
+		C40E614E1F19ED6000ABACCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40E614D1F19ED6000ABACCF /* ViewController.swift */; };
+		C40E61511F19ED6000ABACCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40E614F1F19ED6000ABACCF /* Main.storyboard */; };
+		C40E61541F19ED6000ABACCF /* URLSaver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C40E61521F19ED6000ABACCF /* URLSaver.xcdatamodeld */; };
+		C40E61561F19ED6000ABACCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C40E61551F19ED6000ABACCF /* Assets.xcassets */; };
+		C40E61591F19ED6000ABACCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40E61571F19ED6000ABACCF /* LaunchScreen.storyboard */; };
+		C40E61641F19ED6000ABACCF /* URLSaverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40E61631F19ED6000ABACCF /* URLSaverTests.swift */; };
+		C40E616F1F19ED6000ABACCF /* URLSaverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40E616E1F19ED6000ABACCF /* URLSaverUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C40E61601F19ED6000ABACCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C40E61401F19ED6000ABACCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C40E61471F19ED6000ABACCF;
+			remoteInfo = URLSaver;
+		};
+		C40E616B1F19ED6000ABACCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C40E61401F19ED6000ABACCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C40E61471F19ED6000ABACCF;
+			remoteInfo = URLSaver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C40E61481F19ED6000ABACCF /* URLSaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLSaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40E614B1F19ED6000ABACCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C40E614D1F19ED6000ABACCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C40E61501F19ED6000ABACCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C40E61531F19ED6000ABACCF /* URLSaver.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = URLSaver.xcdatamodel; sourceTree = "<group>"; };
+		C40E61551F19ED6000ABACCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C40E61581F19ED6000ABACCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C40E615A1F19ED6000ABACCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C40E615F1F19ED6000ABACCF /* URLSaverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URLSaverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40E61631F19ED6000ABACCF /* URLSaverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSaverTests.swift; sourceTree = "<group>"; };
+		C40E61651F19ED6000ABACCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C40E616A1F19ED6000ABACCF /* URLSaverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URLSaverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40E616E1F19ED6000ABACCF /* URLSaverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSaverUITests.swift; sourceTree = "<group>"; };
+		C40E61701F19ED6000ABACCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C40E61451F19ED6000ABACCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40E615C1F19ED6000ABACCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40E61671F19ED6000ABACCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C40E613F1F19ED6000ABACCF = {
+			isa = PBXGroup;
+			children = (
+				C40E614A1F19ED6000ABACCF /* URLSaver */,
+				C40E61621F19ED6000ABACCF /* URLSaverTests */,
+				C40E616D1F19ED6000ABACCF /* URLSaverUITests */,
+				C40E61491F19ED6000ABACCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C40E61491F19ED6000ABACCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C40E61481F19ED6000ABACCF /* URLSaver.app */,
+				C40E615F1F19ED6000ABACCF /* URLSaverTests.xctest */,
+				C40E616A1F19ED6000ABACCF /* URLSaverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C40E614A1F19ED6000ABACCF /* URLSaver */ = {
+			isa = PBXGroup;
+			children = (
+				C40E614B1F19ED6000ABACCF /* AppDelegate.swift */,
+				C40E614D1F19ED6000ABACCF /* ViewController.swift */,
+				C40E614F1F19ED6000ABACCF /* Main.storyboard */,
+				C40E61551F19ED6000ABACCF /* Assets.xcassets */,
+				C40E61571F19ED6000ABACCF /* LaunchScreen.storyboard */,
+				C40E615A1F19ED6000ABACCF /* Info.plist */,
+				C40E61521F19ED6000ABACCF /* URLSaver.xcdatamodeld */,
+			);
+			path = URLSaver;
+			sourceTree = "<group>";
+		};
+		C40E61621F19ED6000ABACCF /* URLSaverTests */ = {
+			isa = PBXGroup;
+			children = (
+				C40E61631F19ED6000ABACCF /* URLSaverTests.swift */,
+				C40E61651F19ED6000ABACCF /* Info.plist */,
+			);
+			path = URLSaverTests;
+			sourceTree = "<group>";
+		};
+		C40E616D1F19ED6000ABACCF /* URLSaverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C40E616E1F19ED6000ABACCF /* URLSaverUITests.swift */,
+				C40E61701F19ED6000ABACCF /* Info.plist */,
+			);
+			path = URLSaverUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C40E61471F19ED6000ABACCF /* URLSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C40E61731F19ED6000ABACCF /* Build configuration list for PBXNativeTarget "URLSaver" */;
+			buildPhases = (
+				C40E61441F19ED6000ABACCF /* Sources */,
+				C40E61451F19ED6000ABACCF /* Frameworks */,
+				C40E61461F19ED6000ABACCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = URLSaver;
+			productName = URLSaver;
+			productReference = C40E61481F19ED6000ABACCF /* URLSaver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C40E615E1F19ED6000ABACCF /* URLSaverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C40E61761F19ED6000ABACCF /* Build configuration list for PBXNativeTarget "URLSaverTests" */;
+			buildPhases = (
+				C40E615B1F19ED6000ABACCF /* Sources */,
+				C40E615C1F19ED6000ABACCF /* Frameworks */,
+				C40E615D1F19ED6000ABACCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C40E61611F19ED6000ABACCF /* PBXTargetDependency */,
+			);
+			name = URLSaverTests;
+			productName = URLSaverTests;
+			productReference = C40E615F1F19ED6000ABACCF /* URLSaverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C40E61691F19ED6000ABACCF /* URLSaverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C40E61791F19ED6000ABACCF /* Build configuration list for PBXNativeTarget "URLSaverUITests" */;
+			buildPhases = (
+				C40E61661F19ED6000ABACCF /* Sources */,
+				C40E61671F19ED6000ABACCF /* Frameworks */,
+				C40E61681F19ED6000ABACCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C40E616C1F19ED6000ABACCF /* PBXTargetDependency */,
+			);
+			name = URLSaverUITests;
+			productName = URLSaverUITests;
+			productReference = C40E616A1F19ED6000ABACCF /* URLSaverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C40E61401F19ED6000ABACCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Test;
+				TargetAttributes = {
+					C40E61471F19ED6000ABACCF = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					C40E615E1F19ED6000ABACCF = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C40E61471F19ED6000ABACCF;
+					};
+					C40E61691F19ED6000ABACCF = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C40E61471F19ED6000ABACCF;
+					};
+				};
+			};
+			buildConfigurationList = C40E61431F19ED6000ABACCF /* Build configuration list for PBXProject "URLSaver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C40E613F1F19ED6000ABACCF;
+			productRefGroup = C40E61491F19ED6000ABACCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C40E61471F19ED6000ABACCF /* URLSaver */,
+				C40E615E1F19ED6000ABACCF /* URLSaverTests */,
+				C40E61691F19ED6000ABACCF /* URLSaverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C40E61461F19ED6000ABACCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40E61591F19ED6000ABACCF /* LaunchScreen.storyboard in Resources */,
+				C40E61561F19ED6000ABACCF /* Assets.xcassets in Resources */,
+				C40E61511F19ED6000ABACCF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40E615D1F19ED6000ABACCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40E61681F19ED6000ABACCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C40E61441F19ED6000ABACCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40E614E1F19ED6000ABACCF /* ViewController.swift in Sources */,
+				C40E614C1F19ED6000ABACCF /* AppDelegate.swift in Sources */,
+				C40E61541F19ED6000ABACCF /* URLSaver.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40E615B1F19ED6000ABACCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40E61641F19ED6000ABACCF /* URLSaverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40E61661F19ED6000ABACCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40E616F1F19ED6000ABACCF /* URLSaverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C40E61611F19ED6000ABACCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C40E61471F19ED6000ABACCF /* URLSaver */;
+			targetProxy = C40E61601F19ED6000ABACCF /* PBXContainerItemProxy */;
+		};
+		C40E616C1F19ED6000ABACCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C40E61471F19ED6000ABACCF /* URLSaver */;
+			targetProxy = C40E616B1F19ED6000ABACCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C40E614F1F19ED6000ABACCF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C40E61501F19ED6000ABACCF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C40E61571F19ED6000ABACCF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C40E61581F19ED6000ABACCF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C40E61711F19ED6000ABACCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C40E61721F19ED6000ABACCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C40E61741F19ED6000ABACCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = URLSaver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = radha.kr.URLSaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C40E61751F19ED6000ABACCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = URLSaver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = radha.kr.URLSaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C40E61771F19ED6000ABACCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = URLSaverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = radha.kr.URLSaverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/URLSaver.app/URLSaver";
+			};
+			name = Debug;
+		};
+		C40E61781F19ED6000ABACCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = URLSaverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = radha.kr.URLSaverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/URLSaver.app/URLSaver";
+			};
+			name = Release;
+		};
+		C40E617A1F19ED6000ABACCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = URLSaverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = radha.kr.URLSaverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = URLSaver;
+			};
+			name = Debug;
+		};
+		C40E617B1F19ED6000ABACCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = URLSaverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = radha.kr.URLSaverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = URLSaver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C40E61431F19ED6000ABACCF /* Build configuration list for PBXProject "URLSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40E61711F19ED6000ABACCF /* Debug */,
+				C40E61721F19ED6000ABACCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C40E61731F19ED6000ABACCF /* Build configuration list for PBXNativeTarget "URLSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40E61741F19ED6000ABACCF /* Debug */,
+				C40E61751F19ED6000ABACCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C40E61761F19ED6000ABACCF /* Build configuration list for PBXNativeTarget "URLSaverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40E61771F19ED6000ABACCF /* Debug */,
+				C40E61781F19ED6000ABACCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C40E61791F19ED6000ABACCF /* Build configuration list for PBXNativeTarget "URLSaverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40E617A1F19ED6000ABACCF /* Debug */,
+				C40E617B1F19ED6000ABACCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C40E61521F19ED6000ABACCF /* URLSaver.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C40E61531F19ED6000ABACCF /* URLSaver.xcdatamodel */,
+			);
+			currentVersion = C40E61531F19ED6000ABACCF /* URLSaver.xcdatamodel */;
+			path = URLSaver.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C40E61401F19ED6000ABACCF /* Project object */;
+}
