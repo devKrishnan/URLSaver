@@ -8,14 +8,17 @@
 
 import UIKit
 
-class BookmarkCell: UITableViewCell {
+public class BookmarkCell: UITableViewCell {
 
-    override func awakeFromNib() {
+    @IBOutlet weak var summary: UILabel!
+    @IBOutlet weak var url: UILabel!
+    @IBOutlet weak var icon: UIImageView!
+    override public func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
+    override public func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state

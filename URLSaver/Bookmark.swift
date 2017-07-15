@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+public struct Bookmark {
+    var url : String
+    var title : String
+    var iconURL : String
+}

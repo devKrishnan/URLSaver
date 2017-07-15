@@ -8,13 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		C40E614C1F19ED6000ABACCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40E614B1F19ED6000ABACCF /* AppDelegate.swift */; };
-		C40E614E1F19ED6000ABACCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40E614D1F19ED6000ABACCF /* ViewController.swift */; };
 		C40E61511F19ED6000ABACCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40E614F1F19ED6000ABACCF /* Main.storyboard */; };
 		C40E61541F19ED6000ABACCF /* URLSaver.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C40E61521F19ED6000ABACCF /* URLSaver.xcdatamodeld */; };
 		C40E61561F19ED6000ABACCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C40E61551F19ED6000ABACCF /* Assets.xcassets */; };
 		C40E61591F19ED6000ABACCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40E61571F19ED6000ABACCF /* LaunchScreen.storyboard */; };
 		C40E61641F19ED6000ABACCF /* URLSaverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40E61631F19ED6000ABACCF /* URLSaverTests.swift */; };
 		C40E616F1F19ED6000ABACCF /* URLSaverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40E616E1F19ED6000ABACCF /* URLSaverUITests.swift */; };
+		C40E617D1F19EDAF00ABACCF /* URLsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40E617C1F19EDAF00ABACCF /* URLsViewController.swift */; };
+		C40E61811F19EEE100ABACCF /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C40E61801F19EEE100ABACCF /* Podfile */; };
+		C40E61821F19EEE100ABACCF /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C40E61801F19EEE100ABACCF /* Podfile */; };
+		C40E61831F19EEE100ABACCF /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C40E61801F19EEE100ABACCF /* Podfile */; };
+		C40E61851F19F21B00ABACCF /* BookmarkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40E61841F19F21B00ABACCF /* BookmarkCell.swift */; };
+		C40E61871F19F2DF00ABACCF /* Bookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40E61861F19F2DF00ABACCF /* Bookmark.swift */; };
+		C40E61891F19F5B500ABACCF /* SaveURLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40E61881F19F5B500ABACCF /* SaveURLViewController.swift */; };
+		C40E61B61F19FEE800ABACCF /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C40E61B51F19FEE800ABACCF /* libxml2.2.tbd */; };
+		C4643D291F1A1035004C1649 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4643D231F1A1035004C1649 /* Constants.swift */; };
+		C4643D2A1F1A1035004C1649 /* KFImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4643D241F1A1035004C1649 /* KFImageCacheManager.swift */; };
+		C4643D2B1F1A1035004C1649 /* MKAnnotationViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4643D251F1A1035004C1649 /* MKAnnotationViewExtensions.swift */; };
+		C4643D2C1F1A1035004C1649 /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4643D261F1A1035004C1649 /* UIButtonExtensions.swift */; };
+		C4643D2D1F1A1035004C1649 /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4643D271F1A1035004C1649 /* UIImageViewExtensions.swift */; };
+		C4643D2E1F1A1035004C1649 /* WKInterfaceImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4643D281F1A1035004C1649 /* WKInterfaceImageExtensions.swift */; };
+		C46845101F1A04F500410B76 /* SwiftSoup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C468450D1F1A04E800410B76 /* SwiftSoup.framework */; };
+		C468452A1F1A093200410B76 /* SwiftSoup.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C468450D1F1A04E800410B76 /* SwiftSoup.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,12 +47,46 @@
 			remoteGlobalIDString = C40E61471F19ED6000ABACCF;
 			remoteInfo = URLSaver;
 		};
+		C468450C1F1A04E800410B76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C46845071F1A04E800410B76 /* SwiftSoup.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8CE418161DAA54A900240B42;
+			remoteInfo = SwiftSoup;
+		};
+		C468450E1F1A04E800410B76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C46845071F1A04E800410B76 /* SwiftSoup.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8CE4181F1DAA54A900240B42;
+			remoteInfo = SwiftSoupTests;
+		};
+		C468452B1F1A093200410B76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C46845071F1A04E800410B76 /* SwiftSoup.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CE418151DAA54A900240B42;
+			remoteInfo = SwiftSoup;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C40E61A61F19F89600ABACCF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C468452A1F1A093200410B76 /* SwiftSoup.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C40E61481F19ED6000ABACCF /* URLSaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = URLSaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C40E614B1F19ED6000ABACCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C40E614D1F19ED6000ABACCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C40E61501F19ED6000ABACCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C40E61531F19ED6000ABACCF /* URLSaver.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = URLSaver.xcdatamodel; sourceTree = "<group>"; };
 		C40E61551F19ED6000ABACCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +98,20 @@
 		C40E616A1F19ED6000ABACCF /* URLSaverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URLSaverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C40E616E1F19ED6000ABACCF /* URLSaverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSaverUITests.swift; sourceTree = "<group>"; };
 		C40E61701F19ED6000ABACCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C40E617C1F19EDAF00ABACCF /* URLsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLsViewController.swift; sourceTree = "<group>"; };
+		C40E61801F19EEE100ABACCF /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		C40E61841F19F21B00ABACCF /* BookmarkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarkCell.swift; sourceTree = "<group>"; };
+		C40E61861F19F2DF00ABACCF /* Bookmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bookmark.swift; sourceTree = "<group>"; };
+		C40E61881F19F5B500ABACCF /* SaveURLViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveURLViewController.swift; sourceTree = "<group>"; };
+		C40E61B51F19FEE800ABACCF /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		C4643D231F1A1035004C1649 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C4643D241F1A1035004C1649 /* KFImageCacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KFImageCacheManager.swift; sourceTree = "<group>"; };
+		C4643D251F1A1035004C1649 /* MKAnnotationViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKAnnotationViewExtensions.swift; sourceTree = "<group>"; };
+		C4643D261F1A1035004C1649 /* UIButtonExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtensions.swift; sourceTree = "<group>"; };
+		C4643D271F1A1035004C1649 /* UIImageViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtensions.swift; sourceTree = "<group>"; };
+		C4643D281F1A1035004C1649 /* WKInterfaceImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKInterfaceImageExtensions.swift; sourceTree = "<group>"; };
+		C46845071F1A04E800410B76 /* SwiftSoup.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftSoup.xcodeproj; path = "../../../Downloads/SwiftSoup-master/SwiftSoup.xcodeproj"; sourceTree = "<group>"; };
+		C46845821F1A0CB600410B76 /* URLSaver-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "URLSaver-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +119,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C46845101F1A04F500410B76 /* SwiftSoup.framework in Frameworks */,
+				C40E61B61F19FEE800ABACCF /* libxml2.2.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +144,15 @@
 		C40E613F1F19ED6000ABACCF = {
 			isa = PBXGroup;
 			children = (
+				C4643D211F1A1035004C1649 /* KFSwiftImageLoader */,
+				C40E61801F19EEE100ABACCF /* Podfile */,
+				C46845071F1A04E800410B76 /* SwiftSoup.xcodeproj */,
 				C40E614A1F19ED6000ABACCF /* URLSaver */,
 				C40E61621F19ED6000ABACCF /* URLSaverTests */,
 				C40E616D1F19ED6000ABACCF /* URLSaverUITests */,
 				C40E61491F19ED6000ABACCF /* Products */,
+				C40E61B41F19FEE800ABACCF /* Frameworks */,
+				C46845821F1A0CB600410B76 /* URLSaver-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +170,15 @@
 			isa = PBXGroup;
 			children = (
 				C40E614B1F19ED6000ABACCF /* AppDelegate.swift */,
-				C40E614D1F19ED6000ABACCF /* ViewController.swift */,
 				C40E614F1F19ED6000ABACCF /* Main.storyboard */,
 				C40E61551F19ED6000ABACCF /* Assets.xcassets */,
 				C40E61571F19ED6000ABACCF /* LaunchScreen.storyboard */,
 				C40E615A1F19ED6000ABACCF /* Info.plist */,
 				C40E61521F19ED6000ABACCF /* URLSaver.xcdatamodeld */,
+				C40E617C1F19EDAF00ABACCF /* URLsViewController.swift */,
+				C40E61841F19F21B00ABACCF /* BookmarkCell.swift */,
+				C40E61861F19F2DF00ABACCF /* Bookmark.swift */,
+				C40E61881F19F5B500ABACCF /* SaveURLViewController.swift */,
 			);
 			path = URLSaver;
 			sourceTree = "<group>";
@@ -128,6 +201,45 @@
 			path = URLSaverUITests;
 			sourceTree = "<group>";
 		};
+		C40E61B41F19FEE800ABACCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C40E61B51F19FEE800ABACCF /* libxml2.2.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4643D211F1A1035004C1649 /* KFSwiftImageLoader */ = {
+			isa = PBXGroup;
+			children = (
+				C4643D221F1A1035004C1649 /* Classes */,
+			);
+			name = KFSwiftImageLoader;
+			path = "../../../Downloads/KFSwiftImageLoader-master/KFSwiftImageLoader";
+			sourceTree = "<group>";
+		};
+		C4643D221F1A1035004C1649 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C4643D231F1A1035004C1649 /* Constants.swift */,
+				C4643D241F1A1035004C1649 /* KFImageCacheManager.swift */,
+				C4643D251F1A1035004C1649 /* MKAnnotationViewExtensions.swift */,
+				C4643D261F1A1035004C1649 /* UIButtonExtensions.swift */,
+				C4643D271F1A1035004C1649 /* UIImageViewExtensions.swift */,
+				C4643D281F1A1035004C1649 /* WKInterfaceImageExtensions.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C46845081F1A04E800410B76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C468450D1F1A04E800410B76 /* SwiftSoup.framework */,
+				C468450F1F1A04E800410B76 /* SwiftSoupTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,10 +250,12 @@
 				C40E61441F19ED6000ABACCF /* Sources */,
 				C40E61451F19ED6000ABACCF /* Frameworks */,
 				C40E61461F19ED6000ABACCF /* Resources */,
+				C40E61A61F19F89600ABACCF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				C468452C1F1A093200410B76 /* PBXTargetDependency */,
 			);
 			name = URLSaver;
 			productName = URLSaver;
@@ -196,6 +310,7 @@
 				TargetAttributes = {
 					C40E61471F19ED6000ABACCF = {
 						CreatedOnToolsVersion = 8.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					C40E615E1F19ED6000ABACCF = {
@@ -221,6 +336,12 @@
 			mainGroup = C40E613F1F19ED6000ABACCF;
 			productRefGroup = C40E61491F19ED6000ABACCF /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C46845081F1A04E800410B76 /* Products */;
+					ProjectRef = C46845071F1A04E800410B76 /* SwiftSoup.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C40E61471F19ED6000ABACCF /* URLSaver */,
@@ -230,6 +351,23 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		C468450D1F1A04E800410B76 /* SwiftSoup.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftSoup.framework;
+			remoteRef = C468450C1F1A04E800410B76 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C468450F1F1A04E800410B76 /* SwiftSoupTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftSoupTests.xctest;
+			remoteRef = C468450E1F1A04E800410B76 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		C40E61461F19ED6000ABACCF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -237,6 +375,7 @@
 			files = (
 				C40E61591F19ED6000ABACCF /* LaunchScreen.storyboard in Resources */,
 				C40E61561F19ED6000ABACCF /* Assets.xcassets in Resources */,
+				C40E61811F19EEE100ABACCF /* Podfile in Resources */,
 				C40E61511F19ED6000ABACCF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,6 +384,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C40E61821F19EEE100ABACCF /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +392,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C40E61831F19EEE100ABACCF /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +403,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C40E614E1F19ED6000ABACCF /* ViewController.swift in Sources */,
+				C40E61871F19F2DF00ABACCF /* Bookmark.swift in Sources */,
+				C40E61891F19F5B500ABACCF /* SaveURLViewController.swift in Sources */,
 				C40E614C1F19ED6000ABACCF /* AppDelegate.swift in Sources */,
 				C40E61541F19ED6000ABACCF /* URLSaver.xcdatamodeld in Sources */,
+				C4643D291F1A1035004C1649 /* Constants.swift in Sources */,
+				C4643D2C1F1A1035004C1649 /* UIButtonExtensions.swift in Sources */,
+				C4643D2E1F1A1035004C1649 /* WKInterfaceImageExtensions.swift in Sources */,
+				C40E617D1F19EDAF00ABACCF /* URLsViewController.swift in Sources */,
+				C40E61851F19F21B00ABACCF /* BookmarkCell.swift in Sources */,
+				C4643D2B1F1A1035004C1649 /* MKAnnotationViewExtensions.swift in Sources */,
+				C4643D2D1F1A1035004C1649 /* UIImageViewExtensions.swift in Sources */,
+				C4643D2A1F1A1035004C1649 /* KFImageCacheManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +446,11 @@
 			isa = PBXTargetDependency;
 			target = C40E61471F19ED6000ABACCF /* URLSaver */;
 			targetProxy = C40E616B1F19ED6000ABACCF /* PBXContainerItemProxy */;
+		};
+		C468452C1F1A093200410B76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSoup;
+			targetProxy = C468452B1F1A093200410B76 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -415,11 +570,15 @@
 		C40E61741F19ED6000ABACCF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = URLSaver/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = radha.kr.URLSaver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "URLSaver-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -427,11 +586,14 @@
 		C40E61751F19ED6000ABACCF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = URLSaver/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = radha.kr.URLSaver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "URLSaver-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -509,6 +671,7 @@
 				C40E61751F19ED6000ABACCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C40E61761F19ED6000ABACCF /* Build configuration list for PBXNativeTarget "URLSaverTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +680,7 @@
 				C40E61781F19ED6000ABACCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C40E61791F19ED6000ABACCF /* Build configuration list for PBXNativeTarget "URLSaverUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +689,7 @@
 				C40E617B1F19ED6000ABACCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -28,26 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C40E615E1F19ED6000ABACCF"
-               BuildableName = "URLSaverTests.xctest"
-               BlueprintName = "URLSaverTests"
-               ReferencedContainer = "container:URLSaver.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C40E61691F19ED6000ABACCF"
-               BuildableName = "URLSaverUITests.xctest"
-               BlueprintName = "URLSaverUITests"
-               ReferencedContainer = "container:URLSaver.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
